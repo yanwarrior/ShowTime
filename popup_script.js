@@ -16,3 +16,12 @@ function setTimeAndDate(timeElement, dateElement) {
 	dateElement.innerHTML = date;
 }
 //end-region
+
+//region {calls}
+console.log(consoleGreeting);
+document.addEventListener("DOMContentLoaded", function(dcle) {
+	var timeElement = document.getElementById(timeId);
+	var dateElement = document.getElementById(dateId);
+	setTimeAndDate(timeElement,dateElement);
+});
+//end-region
