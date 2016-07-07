@@ -6,7 +6,7 @@ var months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov",
 var consoleGreeting = "Hello World! - from popup_scripts.js";
 function setTimeAndDate(timeElement, dateElement) {
 	var date = new Date();
-	var minutes (date.getMinutes() < 10 ? '0':'') + date.getMinutes();
+	var minutes = (date.getMinutes() < 10 ? '0':'') + date.getMinutes();
 	var time = date.getHours() + ":" + minutes;
 	//In "date.getMonth", 0 indicates the first month of year
 	//In "date.getDay", 0 represents Sunday
